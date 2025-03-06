@@ -2,7 +2,7 @@
 
 # 🌦️ Flutter Weather Forecast App
 
-<img src="https://github.com/username/weather-forecast-app/raw/main/screenshots/banner.png" alt="App Banner" width="100%">
+<img src="logo/logo.png" alt="App Banner" width="30%">
 
 ### A beautifully designed weather forecast application with real-time updates and location tracking
 
@@ -178,10 +178,10 @@ All states in the app are immutable, providing:
 <br>
 
 <div align="center">
-  <img src="https://github.com/username/weather-forecast-app/raw/main/screenshots/app_icon.png" width="80" height="80">
+  <img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png" width="80" height="80">
   <h3>Contact</h3>
   <p>
-    <a href="https://github.com/kalharawimukthi">
+    <a href="mailto:kalharawimukthi0617@gmail.com">
       <img src="https://img.shields.io/badge/GitHub-kalharawimukthi-181717?style=for-the-badge&logo=github" alt="GitHub">
     </a>
   </p>
