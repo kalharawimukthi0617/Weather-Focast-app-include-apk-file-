@@ -1,88 +1,139 @@
+<div align="center">
+
 # 🌦️ Flutter Weather Forecast App
 
-![App Banner](https://github.com/username/weather-forecast-app/raw/main/screenshots/banner.png)
+<img src="https://github.com/username/weather-forecast-app/raw/main/screenshots/banner.png" alt="App Banner" width="100%">
 
-A beautifully designed weather forecast application built with Flutter and BLoC pattern. Get real-time weather updates for any city or your current location with a simple, intuitive interface.
+### A beautifully designed weather forecast application with real-time updates and location tracking
 
-## ✨ Created by [Kalhara Wimukthi](https://github.com/kalharawimukthi)
+<br>
+
+<div align="center">
+  <a href="https://github.com/kalharawimukthi0617/Weather-Focast-app-include-apk-file-/releases/download/weather/weather_forcast.apk">
+    <img src="https://img.shields.io/badge/%E2%AC%87%EF%B8%8F%20DOWNLOAD-Weather%20Forecast%20App-2ea44f?style=for-the-badge&logo=github" alt="Download Button" width="400">
+  </a>
+</div>
+
+<br>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/flutter-v3.13.0-blue?logo=flutter" alt="Flutter Version">
-  <img src="https://img.shields.io/badge/dart-v3.1.0-blue?logo=dart" alt="Dart Version">
-  <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
-  <img src="https://img.shields.io/badge/platform-android%20|%20ios-lightgrey" alt="Platform">
+  <img src="https://img.shields.io/badge/flutter-v3.13.0-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter Version">
+  <img src="https://img.shields.io/badge/dart-v3.1.0-0175C2?style=flat-square&logo=dart&logoColor=white" alt="Dart Version">
+  <img src="https://img.shields.io/badge/bloc-v8.1.3-blue?style=flat-square&logo=bloc&logoColor=white" alt="BLoC Version">
+  <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="License">
+  <img src="https://img.shields.io/badge/platform-android%20|%20ios-lightgrey?style=flat-square" alt="Platform">
 </p>
 
-## 📱 Screenshots
+</div>
 
-<p align="center">
-  <img src="https://github.com/username/weather-forecast-app/raw/main/screenshots/home.png" width="200" alt="Home Screen">
-  <img src="https://github.com/username/weather-forecast-app/raw/main/screenshots/weather_details.png" width="200" alt="Weather Details">
-  <img src="https://github.com/username/weather-forecast-app/raw/main/screenshots/settings.png" width="200" alt="Settings Screen">
-  <img src="https://github.com/username/weather-forecast-app/raw/main/screenshots/dark_mode.png" width="200" alt="Dark Mode">
-</p>
+<br>
+
+## ✨ Crafted with Passion by [Kalhara Wimukthi](https://github.com/kalharawimukthi)
+
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="Screen Shots/s1.jpg" alt="Home Screen"></td>
+      <td><img src="Screen Shots/s2.jpg" alt="Weather Details"></td>
+    </tr>
+    <tr>
+      <td><img src="Screen Shots/s3.jpg" alt="Settings Screen"></td>
+      <td><img src="Screen Shots/s4.jpg" alt="Dark Mode"></td>
+    </tr>
+  </table>
+</div>
+
+<br>
 
 ## 🚀 Features
 
-- 📍 **Real-time location-based weather** - Get weather data based on your current location
-- 🔍 **Search any city** - Look up weather information for any city around the world
-- 🌡️ **Temperature unit toggle** - Switch between Celsius and Fahrenheit
-- 🌓 **Dark mode support** - Easy on the eyes during night time
-- 🔄 **Automatic refresh** - Pull to refresh for the latest weather data
-- 💾 **Default city saving** - Set your favorite city as default
-- 📊 **Detailed weather metrics** - View humidity, wind speed, and feels-like temperature
+<table>
+  <tr>
+    <td width="50%">
+      <h3>📍 Real-time Location Weather</h3>
+      <p>Get accurate weather data based on your current GPS location with just one tap</p>
+    </td>
+    <td width="50%">
+      <h3>🔍 Global City Search</h3>
+      <p>Look up detailed weather information for any city around the world</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>🌡️ Temperature Unit Options</h3>
+      <p>Seamlessly switch between Celsius and Fahrenheit based on your preference</p>
+    </td>
+    <td width="50%">
+      <h3>🌓 Dark Mode Support</h3>
+      <p>Easy on the eyes during night time with a beautifully designed dark theme</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>🔄 Pull to Refresh</h3>
+      <p>Get the latest weather data with a simple pull-to-refresh gesture</p>
+    </td>
+    <td width="50%">
+      <h3>💾 Default City Setting</h3>
+      <p>Configure your favorite city to load automatically at startup</p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <h3>📊 Comprehensive Weather Metrics</h3>
+      <p>View detailed information including humidity, wind speed, feels-like temperature, and current conditions at a glance</p>
+    </td>
+  </tr>
+</table>
 
-## 🛠️ Technology Stack
+<br>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg" alt="Flutter" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg" alt="Dart" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/felangel/bloc/master/docs/assets/bloc_logo_full.png" alt="BLoC" width="80" height="40"/>
-</p>
+## 🛠️ Technology Stack & Architecture
 
-- **Flutter** - UI toolkit for building natively compiled applications
-- **Dart** - Client-optimized programming language
-- **BLoC Pattern** - Business Logic Component architecture for state management
-- **Dio** - HTTP client for API requests
-- **Geolocator** - Location services integration
-- **Equatable** - Simplifies equality comparisons
-- **Provider** - Dependency injection
-- **Intl** - Internationalization and formatting
+<div align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg" alt="Flutter" width="50" height="50">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg" alt="Dart" width="50" height="50">
+  <img src="https://raw.githubusercontent.com/felangel/bloc/master/docs/assets/bloc_logo_full.png" alt="BLoC" width="100" height="50">
+  <img src="https://user-images.githubusercontent.com/1768537/42577278-6237cbda-84f3-11e8-8c2d-8e986bad49f6.png" alt="Dio" width="50" height="50">
+  <img src="https://plugins.jetbrains.com/files/12075/97260/icon/pluginIcon.svg" alt="Equatable" width="50" height="50">
+</div>
 
-## 📊 Architecture & Design Patterns
+<br>
 
-### Clean Architecture
+### BLoC Pattern Implementation
 
-The app follows a clean architecture approach with clear separation of concerns:
+The application leverages two separate BLoCs for optimal state management:
 
-```
-lib/
-├── bloc/         - State management logic
-├── data/         - Data handling & models
-├── ui/           - UI components
-├── main.dart     - App entry point
-```
-
-### BLoC Pattern
-
-The application uses not one but two BLoCs for state management:
-
-1. **WeatherBloc** - Manages weather data fetching and state
-2. **SettingsBloc** - Handles user preferences
+<table>
+  <tr>
+    <th>WeatherBloc</th>
+    <th>SettingsBloc</th>
+  </tr>
+  <tr>
+    <td>
+      • Handles API data fetching<br>
+      • Manages loading states<br>
+      • Processes location data<br>
+      • Handles error conditions
+    </td>
+    <td>
+      • Manages user preferences<br>
+      • Controls temperature units<br>
+      • Stores default city<br>
+      • Handles theme switching
+    </td>
+  </tr>
+</table>
 
 ### Immutable State Management
 
 All states in the app are immutable, providing:
-- Predictable state transitions
-- Enhanced debugging capability
-- Optimized rendering in Flutter
+- ✅ Predictable state transitions
+- ✅ Enhanced debugging capability
+- ✅ Optimized rendering in Flutter
+- ✅ Thread-safe operations
 
-### Repository Pattern
-
-The WeatherRepository abstracts the data source, making it easy to:
-- Switch between different weather APIs
-- Implement caching strategies
-- Test components in isolation
+<br>
 
 ## 📝 Getting Started
 
@@ -93,53 +144,51 @@ The WeatherRepository abstracts the data source, making it easy to:
 - Android Studio / VS Code with Flutter extensions
 - OpenWeatherMap API key
 
-### Installation
-
-1. Clone the repository
-   ```
-   git clone https://github.com/kalharawimukthi/weather-forecast-app.git
-   ```
-
-2. Navigate to the project folder
-   ```
-   cd weather-forecast-app
-   ```
-
-3. Install dependencies
-   ```
-   flutter pub get
-   ```
-
-4. Open the `lib/data/repositories/weather_repository.dart` file and replace `YOUR_API_KEY` with your OpenWeatherMap API key
-
-5. Run the app
-   ```
-   flutter run
-   ```
+<br>
 
 ## 🔮 Future Enhancements
 
-- 5-day weather forecast
-- Weather alerts and notifications
-- Weather maps integration
-- Offline caching
-- More detailed weather information
-- Weather history
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><h3>📅</h3></td>
+      <td><b>5-Day Forecast</b> - Extended weather predictions for better planning</td>
+    </tr>
+    <tr>
+      <td align="center"><h3>🔔</h3></td>
+      <td><b>Weather Alerts</b> - Notifications for extreme weather conditions</td>
+    </tr>
+    <tr>
+      <td align="center"><h3>🗺️</h3></td>
+      <td><b>Weather Maps</b> - Visual representation of weather patterns</td>
+    </tr>
+    <tr>
+      <td align="center"><h3>📱</h3></td>
+      <td><b>Offline Mode</b> - Access weather data without internet connection</td>
+    </tr>
+    <tr>
+      <td align="center"><h3>📈</h3></td>
+      <td><b>Weather History</b> - Historical weather data for comparison</td>
+    </tr>
+  </table>
+</div>
 
-## 🤝 Contributing
+<br>
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+<br>
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 📞 Contact
-
-Kalhara Wimukthi - [@kalharawimukthi](https://github.com/kalharawimukthi)
-
----
-
-<p align="center">
-  Made with ❤️ by Kalhara Wimukthi
-</p>
+<div align="center">
+  <img src="https://github.com/username/weather-forecast-app/raw/main/screenshots/app_icon.png" width="80" height="80">
+  <h3>Contact</h3>
+  <p>
+    <a href="https://github.com/kalharawimukthi">
+      <img src="https://img.shields.io/badge/GitHub-kalharawimukthi-181717?style=for-the-badge&logo=github" alt="GitHub">
+    </a>
+  </p>
+  
+  <br>
+  
+  <p>
+    <img src="https://img.shields.io/badge/Made%20with%20%E2%9D%A4%EF%B8%8F%20by-Kalhara%20Wimukthi-red?style=for-the-badge" alt="Made with love by Kalhara Wimukthi">
+  </p>
+</div>
